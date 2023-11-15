@@ -1,7 +1,7 @@
 .blogs-list {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    width: 100%;
-    padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  width: 100%;
+  padding: 0px 20px;
 }
