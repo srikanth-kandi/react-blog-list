@@ -31,6 +31,10 @@ body {
   .responsive-container {
     width: 85%;
   }
+  .app-container {
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
 }
 
 .app-body {
