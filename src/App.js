@@ -17,7 +17,11 @@ const App = () => (
           <Route exact path="/react-blog-list/" component={Home} />
           <Route exact path="/react-blog-list/about" component={About} />
           <Route exact path="/react-blog-list/contact" component={Contact} />
-          <Route component={NotFound} />
+          <Route path="/react-blog-list/">
+            <Switch>
+              <Route component={NotFound} />
+            </Switch>
+          </Route>
         </Switch>
       </div>
     </div>
